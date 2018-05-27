@@ -1,16 +1,17 @@
 import React, { Component} from "react";
 import "./App.css";
+import BunaGame from './BunaGame';
+
+
+
+
+
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <h1> This is the vanilla app.js </h1>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-
-        
+        <h1> Vanilla React Project </h1>
+        <BunaGame />        
       </div>
     );
   }
